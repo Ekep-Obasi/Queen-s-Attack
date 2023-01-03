@@ -17,8 +17,10 @@ header h1, header p {
   margin: 5px;
 }
 
-header h4 {
+header h5 {
   margin: 3px;
+  font-size: 70%;
+  color: blue;
 }
  
 header p  {
@@ -75,7 +77,7 @@ button {
 
 .active_count1 {
   padding: calc( 1.2rem);
-  background-image: url("assets/blackQueen.jpg");
+  background-image: url("../images/blackQueen.jpg");
   border: 1px solid cornsilk;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,7 +86,7 @@ button {
 
 .active_count2{
   padding: calc( 1.2rem);
-  background-image: url("assets/whiteQueen.png");
+  background-image: url("../images/whiteQueen.png");
   border: 1px solid cornsilk;
   background-repeat: no-repeat;
   background-position: center;

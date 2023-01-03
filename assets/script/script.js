@@ -55,3 +55,7 @@ const attackCheck = () => {
   }
 };
 checkButton.addEventListener("click", attackCheck);
+
+refresh.addEventListener("click", () => {
+  location.reload();
+});
