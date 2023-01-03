@@ -37,7 +37,7 @@ section {
 }
 
 .chess-board {
-  box-shadow: #06182c66 0px 0px 0px 2px, #06182ca6 0px 4px 6px -1px,#ffffff14 0px 1px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   display: flex;
   flex-direction: column;
 }
@@ -130,4 +130,3 @@ div {
   scale: 0.95;
   cursor: pointer;
 }
-
