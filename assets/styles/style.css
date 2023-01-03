@@ -37,8 +37,7 @@ section {
 }
 
 .chess-board {
-  box-shadow: #06182c66 0px 0px 0px 2px, #06182ca6 0px 4px 6px -1px,
-    #ffffff14 0px 1px 0px inset;
+  box-shadow: #06182c66 0px 0px 0px 2px, #06182ca6 0px 4px 6px -1px,#ffffff14 0px 1px 0px inset;
   display: flex;
   flex-direction: column;
 }
@@ -56,6 +55,7 @@ section {
 }
 
 .display {
+  margin: 12px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -77,7 +77,7 @@ button {
   padding: 1.2rem;
 }
 
-.active_count1 {
+.active-count1 {
   padding: 1.2rem;
   background-image: url("../images/blackQueen.jpg");
   border: 1px solid #fff8dc;
@@ -86,7 +86,7 @@ button {
   background-size: contain;
 }
 
-.active_count2 {
+.active-count2 {
   padding: 1.2rem;
   background-image: url("../images/whiteQueen.png");
   border: 1px solid cornsilk;
@@ -113,13 +113,15 @@ div {
   background-color: #efddb4;
 }
 
-.display {
-  margin: 12px;
-}
-
 #check {
   border-radius: 5px;
   background-color: #3cb371;
+  padding: 0.5rem;
+}
+
+#refresh {
+  border-radius: 5px;
+  background-color: #add8e6;
   padding: 0.5rem;
 }
 
@@ -129,8 +131,3 @@ div {
   cursor: pointer;
 }
 
-#refresh {
-  border-radius: 5px;
-  background-color: #add8e6;
-  padding: 0.5rem;
-}
