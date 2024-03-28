@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fefefefe;
+}
+
+header {
+  text-align: center;
+  margin: 15px;
+}
+
+header h1,
+header p {
+  margin: 5px;
+}
+
+header h5 {
+  margin: 3px;
+  font-size: 70%;
+  color: #00f;
+}
+
+header p {
+  font-size: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.chess-board {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  width: 35%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.display {
+  margin: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 16px;
+}
+
+button {
+  margin: 0;
+  border: 1px solid transparent;
+}
+
+.border {
+  padding: 0.5rem;
+  background-color: #efddb4;
+  border: none;
+}
+
+.row {
+  padding: 1.2rem;
+}
+
+.active-count1 {
+  padding: 1.2rem;
+  background-image: url("../images/blackQueen.jpg");
+  border: 1px solid #fff8dc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.active-count2 {
+  padding: 1.2rem;
+  background-image: url("../images/whiteQueen.png");
+  border: 1px solid cornsilk;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.dark {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff8dc;
+}
+
+div {
+  display: flex;
+}
+
+.edge {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efddb4;
+}
+
+#check {
+  border-radius: 5px;
+  background-color: #3cb371;
+  padding: 0.5rem;
+}
+
+#refresh {
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 0.5rem;
+}
+
+#refresh:hover,
+#check:hover {
+  scale: 0.95;
+  cursor: pointer;
+}
